@@ -1,0 +1,184 @@
+:root {
+    --back: black;
+    --color0: #3d5900;
+    --color1: #ffe5e3;
+    --color2: #edffb6;
+}
+
+
+nav {
+    background-image: url(background.png);
+    width: 100%;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px;
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    color: var(--color0);
+    line-height: 10px;
+    font-size: 90px;
+    text-align: center; 
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: 30%;
+    line-height: 10px;
+    text-align: center;
+    color: var(--color0);
+}
+
+body {
+    background-color: var( --color1);
+}
+
+#table1 , #table2 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    color: var(--color0);
+}
+
+#table1 {
+    margin-top: 50px;
+    float: right;
+}
+
+#table2 {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.menu-item img {
+    border-radius: 5px;
+    width: 20vw;
+    z-index: 1;
+}
+.menu-item .desc {
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family: Popins, sans-serif;
+    color: var(--color0);
+}
+.menu-item {
+    background-color: white;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    transition: transform .2s;
+}
+.menu-item:hover {
+    transform: scale(1.04);
+    opacity: 80%;
+    cursor: pointer;
+}
+#logo {
+    width: 150px;
+    margin-top: 70px;
+}
+
+#name {
+    width: 400px;
+    margin: 10px;
+}
+#wholeLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 2;
+}
+#directions img {
+    border: 1px solid white;
+    width: 95%;
+}
+#directions {
+    margin: auto;
+}
+
+#directions p {
+    font-family: Poppins, sans-serif;
+    padding: 5px;
+    color: var(--color0);
+}
+
+#footer1 , #footer2 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+#portfolio {
+padding: 10px;
+border-radius: 7px;
+background-color: white;
+font-family: Barlow Condensed, Arial, sans-serif;
+width: 125px;
+text-align: center;
+color: rgb(54, 112, 131);
+margin-top: 20px;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+#portfolio a {
+text-decoration: none;
+}
+#portfolio:hover {
+transform: scale(1.05);
+}
+
+@media screen and (max-width: 1200px) {
+    #logo {
+        width: 12%;
+    }
+    #name {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 2000px) and (min-width: 901px) {
+    #footer2 {
+        display: none;
+    }
+    #directions {
+        display: none;
+    }
+    #table2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 601px) {
+    #footer1 {
+        display: none;
+    }
+    #directions {
+        display: none;
+    }
+    #table1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    #table1 {
+        display: none;
+    }
+    #table2 {
+        display: none;
+    }
+    #menu {
+        display: none;
+    }
+    #footer1 {
+        display: none;
+    }
+    #footer2 {
+        display: none;
+    }
+}

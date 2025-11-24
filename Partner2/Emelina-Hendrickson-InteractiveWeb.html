@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>Emy's Interactive Website</title>
+        <script src="Emelina-Hendrickson-InteractiveWeb.js"></script>
+        <link rel="stylesheet" href="Emelina-Hendrickson-InteractiveWeb.css">
+    <div id="portfolio">
+        <a href="../Portfolio.html">&#8592;Back to Portfolio</a>
+    </div>
+    </head>
+    <body id="change">
+        <h1 id="name">Hello User!</h1>
+
+        <p id="phrase">Make yourself at home...</p>
+
+        <h3>Customize this webpage :D</h3>
+
+        <div>
+            <h4>What is your name?</h4>
+     
+            <input type="text" id="username" name="username">
+            <button onclick="changeName();">Enter Name</button> 
+        </div>
+        <br/>
+        <div>
+            <h4>Enter a catchphrase!</h4>
+      
+            <input type="text" id="userphrase" name="userphrase">
+            <button onclick="changePhrase();">Enter Phrase</button>
+        </div>
+        <br/>
+        <div>
+            <h4>Enter your favorite font family!</h4>
+            <p>(Capitalize first letter)</p>
+      
+            <input type="text" id="fontfamily" name="fontfamily">
+            <button onclick="changeFont();">Change Font</button>
+        </div>
+        <br/>
+        <div>
+            <h4>Choose a color for the webpage background!</h4>
+            <select id="color">
+                <option id="red">red</option>
+                <option id="pink">pink</option>
+                <option id="purple">purple</option>
+                <option id="blue">blue</option>
+                <option id="green">green</option>
+                <option id="yellow">yellow</option>
+                <option id="orange">orange</option>
+            </select>
+            <button onclick="changeColor();">Change Color</button>
+        </div>
+        <br/>
+        <div>
+            <h4>Would you like to create a To-Do List?</h4>
+            <input type="text" id="userList" placeholder="Ex. Get milk...">
+            <button onclick="makeList();">Add to List</button>
+            <ol id="toDo">
+            
+            </ol>
+        </div>
+
+    </body>
+    <footer>
+    </footer>
+</html>
+
+<!--I wish I could have done emojis, but couldn't make it work...
+            <option id="red">🍎 Red</option>
+            <option id="pink">🌸 Pink</option>
+            <option id="purple">🍆 Purple</option>
+            <option id="blue">🐳 Blue</option>
+            <option id="green">🥦 Green</option>
+            <option id="yellow">🍌 Yellow</option>
+            <option id="orange">🍊 Orange</option>
+-->

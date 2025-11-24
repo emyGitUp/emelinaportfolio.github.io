@@ -1,0 +1,139 @@
+
+head {
+    background-color: #fbffdc;
+}
+body {
+    background-image: url("back.png");
+    background-color: #fbffdc;
+}
+
+div.gallery-item:hover {
+    transform: scale(1.1);
+    opacity: 70%;
+    transition: ease-in 0.2s;
+}
+div.gallery-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #cfd4a9;
+    padding-top: 30px;
+}
+div.gallery-item, img {
+    width: 400px;
+    border-radius: 25px;
+    padding: 1px;
+    margin: auto;
+}
+div.gallery-item div.description {
+    padding: 15px;
+    text-align: center;
+    font-family: Roboto, Quicksand, sans-serif;
+    font-size: 20px;
+    color: #755532;
+    font-weight: bold;
+}
+#signature {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.gallery {
+    background-color: #cfd4a9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Roboto, Quicksand, sans-serif;
+    color: #755532;
+    
+}
+.header {
+    padding: 50px; 
+}
+.page {
+    text-align: center;
+    word-spacing: 10px;
+    font-family: Roboto, Quicksand, sans-serif;
+}
+a:link, a:visited{
+    text-decoration: none;
+    background-color: #cfd4a9;
+    width: 100px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    color:#755532;
+    display: inline-block;
+}
+a:hover {
+    color:#a77e53;
+    background-color: #d6dbaf;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: Roboto, Quicksand, sans-serif;
+    color: #b0b58b;
+    background-color:#fbffdc;
+    width: 350px;
+}
+div.about img {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+div.about p {
+    padding: 10px;
+}
+div.about {
+    width: 700px;
+    height: 400px;
+    padding: 50px;
+    background-color: #cfd4a9;
+    margin: auto;
+}
+div.about a {
+    background-color:#fbffdc;
+    text-align: center;
+    margin-top: 15px;
+}
+div.contact {
+    background-color:#cfd4a9;
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    
+}
+h4 {
+    font-family:Roboto, Quicksand, sans-serif;
+    color:#755532;
+}
+p {
+    font-family: Roboto, Quicksand, sans-serif;
+    color: #755532;
+    font-size: 16px;
+}
+span {
+    background-color: #fbffdc;
+}
+#portfolio {
+padding: 10px;
+border-radius: 7px;
+background-color: white;
+font-family: Barlow Condensed, Arial, sans-serif;
+width: 125px;
+text-align: center;
+color: rgb(54, 112, 131);
+margin-top: 20px;
+margin-left: 10px;
+}
+#portfolio a {
+text-decoration: none;
+}
+#portfolio:hover {
+transform: scale(1.05);
+}

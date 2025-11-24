@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1">
+        <title>Responsive Restaurant</title>
+        <link rel="stylesheet" href="Responsive-Restaurant-Style.css">
+        <script>
+            let menu1 = document.getElementById("item1");
+            function scaleImg1() {
+                menu1.style.transform = "scale(1.5)";
+                menu1.style.transition = "transform 0.25s ease";
+            }
+            let menu2 = document.getElementById("item2");
+            function scaleImg2() {
+                menu2.style.transform = "scale(1.5)";
+                menu2.style.transition = "transform 0.25s ease";
+            }
+            let menu3 = document.getElementById("item3");
+            function scaleImg3() {
+                menu3.style.transform = "scale(1.5)";
+                menu3.style.transition = "transform 0.25s ease";
+            }
+            let menu4 = document.getElementById("item4");
+            function scaleImg4() {
+                menu4.style.transform = "scale(1.5)";
+                menu4.style.transition = "transform 0.25s ease";
+            }
+            let menu5 = document.getElementById("item5");
+            function scaleImg5() {
+                menu5.style.transform = "scale(1.5)";
+                menu5.style.transition = "transform 0.25s ease";
+            }
+        </script>
+    <div id="portfolio">
+        <a href="../Portfolio.html">&#8592;Back to Portfolio</a>
+    </div>
+    </head>
+    <body>
+        <table id="table1">
+            <th>Hours</th>
+            <tr>
+                <td>Mon</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>9am-4pm</td>
+            </tr>
+            <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+        <nav>
+            <div id="wholeLogo">
+                <img id="logo" src="TeaIllustration.svg" alt="Cute Tea logo" width="70px">
+                <img id="name" src="CuteTea.svg" alt="Cute Tea">
+            </div>       
+        </nav>
+
+        <div id="menu">
+            <h3>Menu</h3>
+            <div class="menu-item" >
+                <img src="tea.jpg" alt="Boba Tea" on-click="scaleImg1()" id="item1">
+                <div class="desc">
+                    <h4>Boba Tea $6.00</h4>
+                    <p>Choice of milk or fruit tea.</p>
+                </div>
+            </div>
+            <br/>
+            <div class="menu-item" >
+                <img src="dumplings.jpg" alt="Dumplings" on-click="scaleImg2()" id="item2">
+                <div class="desc">
+                    <h4>Steamed Dumplings $8.00</h4>
+                    <p>Pair of 6 dumplings. Choice of filling (pork, beef, chicken).</p>
+                </div>
+            </div>
+            <br/>
+            <div class="menu-item" >
+                <img src="sushi.jpg" alt="Sushi" on-click="scaleImg3()" id="item3">
+                <div class="desc">
+                    <h4>Sushi Roll $6.00-$10.00</h4>
+                    <p>Choice of filling (salmon $10, avocado $6, tuna $8, egg $6).</p>
+                </div>
+            </div>
+            <br/>
+            <div class="menu-item">
+                <img src="ramen.jpg" alt="Ramen" on-click="scaleImg4()" id="item4">
+                <div class="desc">
+                    <h4>Ramen $10.00</h4>
+                    <p>Choice of flavor (miso, tonkotsu, spicy seafood, chicken).</p>
+                </div>
+            </div>
+            <br/>
+            <div class="menu-item">
+                <img src="fried-rice.jpg" alt="Fried Rice" on-click="scaleImg5()" id="item5">
+                <div class="desc">
+                    <h4>Cute-Tea's Special Fried Rice $10.00</h4>
+                    <p>Choice of protein (pork, beef, chicken, shrimp, egg, tofu).</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="directions">
+            <h3>Directions</h3>
+            <img src="map.png" alt="Map">
+            <p><strong>Address:</strong> 245 Northwood Street, Who-Knows-Where New York.</p>
+            <p>Cute-Tea's restuarant is located in dowtown Who-Knows-Where facing the Blue River Canal and next to Hillside State Park.
+                Join us for a refreshing drink and homemade Japanese meals!
+            </p>
+        </div>
+
+        <table id="table2">
+            <th>Hours</th>
+            <tr>
+                <td>Mon</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Tue</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Wed</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Thu</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Fri</td>
+                <td>9am-6pm</td>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>9am-4pm</td>
+            </tr>
+            <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+            </tr>   
+    </body>
+
+    <footer>
+        <div id="footer1">
+            <p>&#169; Cute - Tea<br/>
+                245 Northwood Street, Who-Knows-Where New York. Near Hillside State Park.<br/>
+                666-1234-4321 &#8226; cutetea@gmail.com
+            </p>
+        </div>
+        <div id="footer2">
+            <p>&#169; Cute - Tea<br/>
+                666-1234-4321 &#8226; cutetea@gmail.com
+            </p>
+        </div>
+    </footer>
+</html>

@@ -1,0 +1,136 @@
+h1 {
+    font-size: 70px;
+    font-family: Barlow Condensed, Arial, sans-serif;
+    text-align: center;
+}
+img {
+    width: 300px;
+    float: left;
+    position: relative;
+}
+#about {
+    padding: 10px;
+    width: 60%; 
+    margin-left: 10px;
+    
+}
+#aboutus {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+nav {
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    background-color: rgb(184, 184, 184);
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: rgb(67, 67, 67);
+}
+nav ul li a:hover {
+    color: white;
+    background-color: rgb(123, 123, 123);
+}
+h2 {
+    font-family: Barlow Condensed, Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+body {
+    background: linear-gradient(#EDEAEA, #B8B8B8);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    height: 100%;
+}
+table {
+    border: 5px solid gray;
+    width: 50%;
+    background-color: lightgray;
+    margin: auto;
+}
+#sale {
+    padding-bottom: 100px;
+}
+th{
+    font-size: 20px;
+}
+td {
+    color: rgb(81, 81, 81);
+}
+th, td, tr{
+    border: 2px dashed white;
+    padding: 10px;
+}
+footer {
+    font-size: 15px;
+    font-family: Barlow Condensed, Arial, sans-serif;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+    left: 0;
+    bottom: 0;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: yellow;
+}
+#rec1, #rec2, #rec3, #rec4, #rec5 {
+    position:relative;
+    background-image: url("record.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    padding: 70px;
+    background-position: center;
+}
+#rec5:hover {
+    transform: scale(1.1);
+    top: 10px;
+}
+#rec4:hover {
+    transform: scale(1.1);
+    top: 10px;
+}
+#rec3:hover {
+    transform: scale(1.1);
+    top: 10px;
+}
+#rec2:hover {
+    transform: scale(1.1);
+    top: 10px;
+}
+#rec1:hover {
+    transform: scale(1.1);
+    top: 10px;
+}
+#portfolio {
+padding: 10px;
+border-radius: 7px;
+background-color: white;
+font-family: Barlow Condensed, Arial, sans-serif;
+width: 125px;
+text-align: center;
+color: rgb(54, 112, 131);
+margin-top: 20px;
+margin-left: 10px;
+}
+#portfolio a {
+    text-decoration: none;
+}
+#portfolio:hover {
+    transform: scale(1.05);
+}
+

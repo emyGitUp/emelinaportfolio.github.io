@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(255, 211, 218);
+
+}
+h1 {
+    color: #f27985;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+h2, h3, h4 {
+    color: #f27985;
+    font-family: Gill Sans, sans-serif;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    background-color: #ffbfc6;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+    border: 2px solid #f27985;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+li {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+}
+table {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+}
+th {
+    font-family: Gill Sans, sans-serif;
+    color: #f27985;
+    height: 60px;
+}
+td {
+    font-family: Arial, sans-serif;
+    height: 30px;
+    padding: 10px;
+}
+ul {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%; 
+}
+ol {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+}
+#hamster {
+    border-radius: 20px;
+}
+#sale {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+}
+#portfolio {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+    font-family: Barlow Condensed, Arial, sans-serif;
+    width: 125px;
+    text-align: center;
+    color: rgb(54, 112, 131);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#portfolio a {
+    text-decoration: none;
+}
+#portfolio:hover {
+    transform: scale(1.05);
+}
