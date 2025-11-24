@@ -1,0 +1,89 @@
+body {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "head head head head"
+        "main main main main"
+        "footer footer footer footer";
+    gap: 10px;
+}
+div {
+    padding: 10px;
+}
+#header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    background-color:rgb(173, 203, 213);
+    grid-area: head;
+    text-align: center;
+    font-family: Barlow Condensed, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: semi-bold;
+    color: rgb(54, 112, 131);
+}
+#aside {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    background-color:rgb(173, 203, 213);
+    grid-area: aside;
+}
+#main {
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+    background-color: rgb(173, 203, 213);
+    grid-area: main;
+}
+#footer {
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+    background-color: rgb(173, 203, 213);
+    grid-area: footer;
+    text-align: center;
+    font-family: Barlow Condensed, Arial, sans-serif;
+    color: rgb(54, 112, 131);
+}
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.project-item {
+    border: 1px solid rgb(202, 202, 202);
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgb(98, 138, 151);
+}
+.project-item:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    opacity: 70%;
+}
+.project-desc {
+    color: rgb(54, 112, 131);
+    text-align: center;
+    font-family: Barlow Condensed, Arial, sans-serif;
+    font-weight: thin;
+}
+@media screen and (max-width: 700px) {
+    body {
+        color: white;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "head head head head"
+        "aside aside aside aside"
+        "main main main main"
+        "footer footer footer footer";
+    }
+}
