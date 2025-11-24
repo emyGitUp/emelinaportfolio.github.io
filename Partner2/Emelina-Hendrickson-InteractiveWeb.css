@@ -1,0 +1,57 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+#phrase, h3 {
+    text-align: center;
+}
+h3 {
+    font-size: 30px;           
+}
+h4 {
+    font-size: 20px;    
+}
+body {
+    background-color: lightgrey;
+}
+input {
+    padding: 7px;
+    border-color: white;
+    border-style: solid;
+}
+button, select {
+    padding: 7px;
+}
+div {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+ol {
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+} 
+footer {
+    padding: 50px;
+} 
+#portfolio {
+padding: 10px;
+border-radius: 7px;
+background-color: white;
+font-family: Barlow Condensed, Arial, sans-serif;
+width: 125px;
+text-align: center;
+color: rgb(54, 112, 131);
+margin-top: 20px;
+margin-left: 10px;
+}
+#portfolio a {
+text-decoration: none;
+}
+#portfolio:hover {
+transform: scale(1.05);
+}      
